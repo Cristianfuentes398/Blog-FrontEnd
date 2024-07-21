@@ -3,13 +3,13 @@
 .body{
     color:#171717;
 }
-.header{
+.header, .footer{
     display: flex;
     border-bottom: 2px solid #CCCCCC;
     height: 130px;
     width: 1280px;
 }
-.header__imagen{
+.header__imagen, .footer__imagen{
     width: 55px;
     height: 55px;
     border-radius: 10px;
@@ -17,7 +17,7 @@
     margin-top: 38px;
 }
 
-.header__h1{
+.header__h1, .footer__h1{
     width: 170px;
     height: 36px;
     margin-top: 47px;
@@ -37,15 +37,16 @@
 .section{
     display: flex;
 }
-.section__h2{
-    width: 164px;
-    margin: 27px 0px 0px 110px;
+h2{
     font-family: "Poppins", sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 42px;
+}
+.section__h2{
+    width: 164px;
+    margin: 27px 0px 0px 110px;
     
-
 }
 .section__imagen{
     width: 603px;
@@ -95,7 +96,7 @@
     margin: 12px 0px 0px 105px;
 
 }
-.section__desafiolatam{
+.desafioLatam{
     display: flex;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -161,4 +162,221 @@
     font-size: 16px;
     margin: 8px 0px 0px 12.93px;
 }
+.article__container{
+    display: flex;
+}
+.article__h2{
+    width: 146px;
+    height: 42px;
+    margin: 58px 0px 0px 105px;
+}
+.article__imagen{
+    width: 298px;
+    height: 200px;
+    border-radius: 20px;
+    margin:22px 0px 0px 105px;
+}
+.article__fecha{
+    width: 294px;
+    height: 24px;
+    font-size: 16px;
+    margin: 6px 0px 0px 111px;
+}
+.article__descripcion{
+    width: 295px;
+    height: 31px;
+    margin: 9px 0px 0px 110px;
 
+}
+.article__logodesafio{
+    margin: 39px 0px 0px 111px;
+    width: 40px;
+    height: 40px;
+    border-radius: 77px;
+}
+.article__desafio{
+    width: 135px;
+    height: 24px;
+    margin: 47px 0px 0px 13px;
+}
+.article__imagen2{
+    width: 298px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 58px 0px 0px 110px;
+}
+.article__imagen3{
+    width: 298px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 122px 0px 0px 31px;
+}
+.article__imagen4{
+    width: 298px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 58px 0px 0px 25px;
+}
+.article__fecha1{
+    width: 294px;
+    height: 24px;
+    font-size: 16px;
+    margin: 6px 0px 0px 35px;
+}
+.article__logodesafio1{
+    margin: 40px 0px 0px 36px;
+    width: 40px;
+    height: 40px;
+    border-radius: 77px;
+}
+.article__descripcion1{
+    width: 295px;
+    height: 31px;
+    margin: 9px 0px 0px 34px;
+
+}
+.article__h2h2{
+    margin: 58px 0px 0px 141px;
+}
+.article__border{
+    width: 298px;
+    height: 89px;
+    border-radius: 10px;
+    margin: 36px 0px 0px 141px;
+    background-color: #E93E30;
+    display: flex;
+}
+.article__imagen5{
+    margin: 14px 0px 1px 10px;
+    width: 85px;
+    height: 74px;    
+}
+.categorias{
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+.article__categorias{
+    width: 97px;
+    height: 45px;
+    margin: 22px 0px 22px 94px;
+    color: #FFFFFF;    
+}
+.article__border1{
+    width: 297px;
+    height: 89px;
+    border-radius: 10px;
+    margin: 30px 0px 0px 141px;
+    background-color: #F7E018;
+    display: flex;
+}
+.article__imagen6{
+    margin: 1px 0px 15px 1px;
+    width: 87px;
+    height: 75px;    
+}
+.article__categorias1{
+    width: 180px;
+    height: 45px;
+    margin: 15px 0px 30px 9px;
+    color: #FFFFFF;    
+}
+.article__border2{
+    width: 298px;
+    height: 89px;
+    border-radius: 10px;
+    margin: 27px 0px 0px 141px;
+    background-color:#299ED5;
+    display: flex;
+}
+.article__imagen7{
+    margin: 11px 0px 10px 15px;
+    width: 73px;
+    height: 68px;    
+}
+.article__categorias2{
+    width: 72px;
+    height: 45px;
+    margin: 28px 0px 16px 116px;
+    color: #FFFFFF;    
+}
+.article__border3{
+    width: 298px;
+    height: 89px;
+    border-radius: 10px;
+    margin: 31px 0px 0px 141px;
+    background-color:#292C33;
+    display: flex;
+}
+.article__imagen8{
+    margin: 7px 0px 8px 10px;
+    width: 99px;
+    height: 74px;    
+}
+.article__categorias3{
+    width: 105px;
+    height: 45px;
+    margin: 22px 0px 22px 61px;
+    color: #FFFFFF;    
+}
+.article__border4{
+    width: 298px;
+    height: 89px;
+    border-radius: 10px;
+    margin: 22px 0px 0px 141px;
+    background-color:#67C770;
+    display: flex;
+}
+.article__imagen9{
+    margin: 16px 0px 16px 14px;
+    width: 77px;
+    height: 57px;    
+}
+.article__categorias4{
+    width: 72px;
+    height: 45px;
+    margin: 22px 0px 22px 114px;
+    color: #FFFFFF;    
+}
+.article__border5{
+    width: 298px;
+    height: 89px;
+    border-radius: 10px;
+    margin: 31px 0px 0px 141px;
+    background-color:#563D7C;
+    display: flex;
+}
+.article__imagen10{
+    margin: 4px 0px 5px 2px;
+    width: 91px;
+    height: 80px;    
+}
+.article__categorias5{
+    width: 178px;
+    height: 45px;
+    margin: 21px 0px 23px 20px;
+    color: #FFFFFF;    
+}
+.article__contenido{
+    margin: 49px 0px 0px 141px;
+    width: 297px;
+    height: 33px; 
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+.paragraph{
+    margin: 49px 0px 0px 537px;
+    width: 283px;
+    height: 33px; 
+    font-family:"Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: right;
+}
